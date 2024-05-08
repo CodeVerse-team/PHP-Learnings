@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <img class="bg" src="wallpaper.jpg" alt="CodeVerse">
+    <div class="container">
+        <h1>Welcome to CodeVerse Student Registration Form</h1>
+        <p>Enter Your Details and Submit this form to take Addmission in the Course.</p>
+        <p class="submitmsg">Thanks for Submiting your Details. In Couple of days you will get a E-mail to join us.</p>
+    <form action="Loginform.php" method="post">
+        <input type="text" name="name" id="name" placeholder="Enter Your Name: ">
+        <input type="text" name="age" id="age" placeholder="Enter Your Age: ">
+        <input type="text" name="gender" id="gender" placeholder="Enter Your Gender: ">
+        <input type="email" name="email" id="email" placeholder="Enter Your email: ">
+        <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone No.: ">    
+        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter Any other info here: "></textarea>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

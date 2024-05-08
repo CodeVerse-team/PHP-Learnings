@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'DynaPuff';
+    font-family: 'Pixelify Sans';
+}
+.container{
+    max-width: 80%;
+    background-color: transparent;
+    padding: 5px 0 0 0;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+h1{
+    font-family: 'DynaPuff', cursive;
+    color: black;
+}
+p{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    font-family: 'Pixelify Sans', cursive;
+}
+input,  textarea{ 
+    width: 80%;
+    font-size: 15px;
+    border: 3px solid #8f0e0e;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px auto;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 7px 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(38, 121, 56);
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.submitmsg{
+    font-size: 25px;
+    color: crimson;
+}
+
+
+
+/* Styles for the message container */
+#message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Success message */
+#message.success {
+    background-color: #4CAF50; /* Green background color for success */
+    color: rgb(0, 0, 0);
+}
+
+/* Error message */
+#message.error {
+    background-color: #f44336; /* Red background color for error */
+    color: rgb(0, 0, 0);
+}
+
+/* Close button style */
+.closebtn {
+    color: white;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
